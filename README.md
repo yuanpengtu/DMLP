@@ -22,6 +22,14 @@ Or you can directly use the purified labels of CIFAR-10, the corresponding files
 
 To achieve better performance, you can combine the purified labels with existing methods to boost their accuracy (i.e., [C2D](https://github.com/ContrastToDivide/C2D) and [DivideMix](https://github.com/LiJunnan1992/DivideMix)).
 
+# Performance
+<img src='Clothing1m.png'>
+
+
+# TODO
+[ ] Release the pretrained weights of MoCo on Clothing1M.
+[ ] Release the purified labels on CIFAR-100 and Clothing1M.
+
 
 # Videos
 For the introduction of the paper, you can refer to [bilibili](https://www.bilibili.com/video/BV13w411A7Nk/?spm_id_from=333.337.search-card.all.click) or [youtube](https://www.youtube.com/watch?v=2m2yONAhiuw&t=141s) for more details.
