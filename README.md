@@ -28,6 +28,7 @@ To achieve better performance, you can combine the purified labels with existing
 
 # TODO
 [ ] Release the pretrained weights of MoCo on Clothing1M.
+
 [ ] Release the purified labels on CIFAR-100 and Clothing1M.
 
 
