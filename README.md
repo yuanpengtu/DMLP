@@ -5,7 +5,7 @@ Source code for our CVPR paper Learning from Noisy Labels with Decoupled Meta La
 
 This is the pytorch implementation of the [paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Tu_Learning_From_Noisy_Labels_With_Decoupled_Meta_Label_Purifier_CVPR_2023_paper.pdf) (accepted by CVPR 2023).
 
-<img src='configs/dmlp.png'>
+<img src='DMLP.png'>
 
 **Fig 1**.DMLP framework
 
@@ -20,6 +20,12 @@ python DMLP.py
 
 Or you can directly use the purified labels of CIFAR-10, the corresponding files are in [labels](https://drive.google.com/drive/folders/1tXjRrf_W-ilvjARWqXVevVbLJR9IOkat?usp=sharing).
 
+To achieve better performance, you can combine the purified labels with existing methods to boost their accuracy (i.e., [C2D](https://github.com/ContrastToDivide/C2D) and [DivideMix](https://github.com/LiJunnan1992/DivideMix)).
+
+
+# Videos
+For the introduction of the paper, you can refer to [bilibili](https://www.bilibili.com/video/BV13w411A7Nk/?spm_id_from=333.337.search-card.all.click) or [youtube](https://www.youtube.com/watch?v=2m2yONAhiuw&t=141s) for more details.
+
 ## Citation 
 If you find DMLP useful in your research, please consider citing.
 
@@ -33,8 +39,11 @@ If you find DMLP useful in your research, please consider citing.
 }
 ```
 
+
 ## Reference
 Pretrained-weights of SimCLR (CIFAR-10/CIFAR-100) and MoCo (Clothing1M) can be referred in [Simclr](https://github.com/google-research/simclr) and [MoCo](https://github.com/facebookresearch/moco).
+
+For C2D and DivideMix, you can refer to [C2D](https://github.com/ContrastToDivide/C2D) and [DivideMix](https://github.com/LiJunnan1992/DivideMix) and combine them with our purified labels. Thanks for their great work!
 
 
 
