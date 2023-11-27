@@ -25,6 +25,10 @@ To achieve better performance, you can combine the purified labels with existing
 # Performance
 <img src='Clothing1m.png'>
 
+# Training Logs
+Training logs on CIFAR-10/100 of DMLP+DivideMix across all the noise rates can be found in [link](https://drive.google.com/drive/folders/1tXjRrf_W-ilvjARWqXVevVbLJR9IOkat?usp=sharing).
+
+
 
 # TODO
 [ ] Release the pretrained weights of MoCo on Clothing1M.
